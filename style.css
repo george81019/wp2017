@@ -1,0 +1,83 @@
+
+body
+{
+   background:url('1.jpg') center center fixed no-repeat; background-size:cover;
+}
+
+h1
+{
+text-align:center; font-size:300%; color:white; font-family:courier;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.top {
+   background-color:rgba(0 ,0 ,0 ,0.5); 
+   padding:7px;
+   text-align:center;
+}
+
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menuitem1, .menuitem2, .menuitem3 ,.menuitem4{
+  background-color:rgba(255 ,255 ,255 ,0.5);
+  padding:8px;
+  margin-top:7px;
+}
+
+.menuitem1:hover, .menuitem2:hover, .menuitem3:hover ,.menuitem4:hover
+{
+    background-color: rgba(30 ,70, 100 ,0.5);
+}
+
+
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+
+#Am,#Fav,#Cm,#MI {
+	background-color: rgba(167 ,50 ,70 ,0.5);
+	color: lightblue;
+	margin-top:10px;
+	padding:17px;
+	text-align:center;
+}
+
+.right {
+  background-color:rgba(0 ,0 ,0 ,0.5); 
+  color:white; 
+  float:right;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+
+h2{
+  font-size:200%;
+  text-align:center;
+}
+
+p{
+  font-size:150%;
+  text-align:center;
+}
+
+
+
+
